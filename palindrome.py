@@ -18,7 +18,7 @@ class PalindromeChecker:
 
 def main():
 
-    value = input("Enter a Value: ")
+    value = input("Enter a Value: ").isalpha()
     checker = PalindromeChecker(value)
 
     if checker.is_palindrome():
