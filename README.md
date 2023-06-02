@@ -1,7 +1,9 @@
 # Palindrome Checker
-	The Palindrome Checker is a Python class that checks if a given string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, disregarding spaces, punctuation, and capitalization.
+	The Palindrome Checker is a Python class that checks if a given string is a palindrome. 
+	A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, 
+	disregarding spaces, punctuation, and capitalization.
 
-Usage:-
+## Usage:-
 
 	To use the Palindrome Checker, follow these steps:
 
@@ -19,7 +21,7 @@ Usage:-
 	Enter a Value: madam
 	Is a Palindrome
 
-Test:-
+## Test:-
 
 	The Palindrome Checker includes unit tests using the pytest framework. To run the tests, follow these steps:
 
@@ -33,7 +35,7 @@ Test:-
 	
 	The tests will be executed, and the test results will be displayed in the console.
 
-Additional Notes:-
+## Additional Notes:-
 	The Palindrome Checker class uses regular expressions to remove non-alphanumeric characters from the input string.
 	The class raises a ValueError if a non-string value is provided as input.
 
